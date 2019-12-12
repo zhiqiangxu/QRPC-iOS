@@ -1,8 +1,14 @@
-## 集团socket流协议
+## qrpc-iOS
 
-> 详见`InnotechIMProtocolManager`
+> a iOS library that lets iOS clients access a qRPC service. You can find out much more about [qRPC](https://github.com/zhiqiangxu/qrpc).
 
-### USAGE
+### Install
+
+```
+pod 'InnotechIMSDK/Protocol'
+```
+
+### Usage
 
 初始化
 
