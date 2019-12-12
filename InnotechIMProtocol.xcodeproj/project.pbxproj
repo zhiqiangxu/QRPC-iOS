@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		849EDEE023A1E86C006FADAA /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 849EDEE123A1E86C006FADAA /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+				84D28B6123A1E89A006A036B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		849EDEB423A1E5F3006FADAA /* InnotechIMProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEB223A1E5F3006FADAA /* InnotechIMProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849EDECB23A1E611006FADAA /* INXAsyncSocketPreBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEBA23A1E611006FADAA /* INXAsyncSocketPreBuffer.h */; };
+		849EDECC23A1E611006FADAA /* INXAsyncSocketPreBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEBB23A1E611006FADAA /* INXAsyncSocketPreBuffer.m */; };
+		849EDECD23A1E611006FADAA /* INXSCommandInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEBC23A1E611006FADAA /* INXSCommandInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849EDECE23A1E611006FADAA /* InnotechIMProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEBD23A1E611006FADAA /* InnotechIMProtocolManager.m */; };
+		849EDECF23A1E611006FADAA /* INXAsyncSpecialPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEBE23A1E611006FADAA /* INXAsyncSpecialPacket.m */; };
+		849EDED023A1E611006FADAA /* INXAsyncWritePacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEBF23A1E611006FADAA /* INXAsyncWritePacket.h */; };
+		849EDED123A1E611006FADAA /* INXAsyncReadPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEC023A1E611006FADAA /* INXAsyncReadPacket.m */; };
+		849EDED223A1E611006FADAA /* INXSCommandInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEC123A1E611006FADAA /* INXSCommandInfo.m */; };
+		849EDED323A1E611006FADAA /* INXAsyncReadPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEC223A1E611006FADAA /* INXAsyncReadPacket.h */; };
+		849EDED423A1E611006FADAA /* InnotechIMProtocolUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEC323A1E611006FADAA /* InnotechIMProtocolUtility.m */; };
+		849EDED523A1E611006FADAA /* INXAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEC423A1E611006FADAA /* INXAsyncSocket.m */; };
+		849EDED623A1E611006FADAA /* INXAsyncSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEC523A1E611006FADAA /* INXAsyncSocketDelegate.h */; };
+		849EDED723A1E611006FADAA /* InnotechIMProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEC623A1E611006FADAA /* InnotechIMProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849EDED823A1E611006FADAA /* INXAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEC723A1E611006FADAA /* INXAsyncSocket.h */; };
+		849EDED923A1E611006FADAA /* INXAsyncSpecialPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEC823A1E611006FADAA /* INXAsyncSpecialPacket.h */; };
+		849EDEDA23A1E611006FADAA /* InnotechIMProtocolUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEC923A1E611006FADAA /* InnotechIMProtocolUtility.h */; };
+		849EDEDB23A1E611006FADAA /* INXAsyncWritePacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDECA23A1E611006FADAA /* INXAsyncWritePacket.m */; };
+		849EDEDE23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EDEDC23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.h */; };
+		849EDEDF23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EDEDD23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.m */; };
+		84D28B6323A1EFD5006A036B /* InnotechIMProtocol.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D28B6223A1EFD5006A036B /* InnotechIMProtocol.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849EDEAF23A1E5F3006FADAA /* InnotechIMProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InnotechIMProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		849EDEB223A1E5F3006FADAA /* InnotechIMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnotechIMProtocol.h; sourceTree = "<group>"; };
+		849EDEB323A1E5F3006FADAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849EDEBA23A1E611006FADAA /* INXAsyncSocketPreBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INXAsyncSocketPreBuffer.h; sourceTree = "<group>"; };
+		849EDEBB23A1E611006FADAA /* INXAsyncSocketPreBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INXAsyncSocketPreBuffer.m; sourceTree = "<group>"; };
+		849EDEBC23A1E611006FADAA /* INXSCommandInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INXSCommandInfo.h; sourceTree = "<group>"; };
+		849EDEBD23A1E611006FADAA /* InnotechIMProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnotechIMProtocolManager.m; sourceTree = "<group>"; };
+		849EDEBE23A1E611006FADAA /* INXAsyncSpecialPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INXAsyncSpecialPacket.m; sourceTree = "<group>"; };
+		849EDEBF23A1E611006FADAA /* INXAsyncWritePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INXAsyncWritePacket.h; sourceTree = "<group>"; };
+		849EDEC023A1E611006FADAA /* INXAsyncReadPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INXAsyncReadPacket.m; sourceTree = "<group>"; };
+		849EDEC123A1E611006FADAA /* INXSCommandInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INXSCommandInfo.m; sourceTree = "<group>"; };
+		849EDEC223A1E611006FADAA /* INXAsyncReadPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INXAsyncReadPacket.h; sourceTree = "<group>"; };
+		849EDEC323A1E611006FADAA /* InnotechIMProtocolUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnotechIMProtocolUtility.m; sourceTree = "<group>"; };
+		849EDEC423A1E611006FADAA /* INXAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INXAsyncSocket.m; sourceTree = "<group>"; };
+		849EDEC523A1E611006FADAA /* INXAsyncSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INXAsyncSocketDelegate.h; sourceTree = "<group>"; };
+		849EDEC623A1E611006FADAA /* InnotechIMProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnotechIMProtocolManager.h; sourceTree = "<group>"; };
+		849EDEC723A1E611006FADAA /* INXAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INXAsyncSocket.h; sourceTree = "<group>"; };
+		849EDEC823A1E611006FADAA /* INXAsyncSpecialPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INXAsyncSpecialPacket.h; sourceTree = "<group>"; };
+		849EDEC923A1E611006FADAA /* InnotechIMProtocolUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnotechIMProtocolUtility.h; sourceTree = "<group>"; };
+		849EDECA23A1E611006FADAA /* INXAsyncWritePacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INXAsyncWritePacket.m; sourceTree = "<group>"; };
+		849EDEDC23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+InnotechIMProtocolGZIP.h"; sourceTree = "<group>"; };
+		849EDEDD23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+InnotechIMProtocolGZIP.m"; sourceTree = "<group>"; };
+		84D28B6223A1EFD5006A036B /* InnotechIMProtocol.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InnotechIMProtocol.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849EDEAC23A1E5F3006FADAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849EDEA523A1E5F3006FADAA = {
+			isa = PBXGroup;
+			children = (
+				84D28B6223A1EFD5006A036B /* InnotechIMProtocol.podspec */,
+				849EDEB123A1E5F3006FADAA /* InnotechIMProtocol */,
+				849EDEB023A1E5F3006FADAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849EDEB023A1E5F3006FADAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849EDEAF23A1E5F3006FADAA /* InnotechIMProtocol.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849EDEB123A1E5F3006FADAA /* InnotechIMProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				849EDEC623A1E611006FADAA /* InnotechIMProtocolManager.h */,
+				849EDEBD23A1E611006FADAA /* InnotechIMProtocolManager.m */,
+				849EDEC923A1E611006FADAA /* InnotechIMProtocolUtility.h */,
+				849EDEC323A1E611006FADAA /* InnotechIMProtocolUtility.m */,
+				849EDEC223A1E611006FADAA /* INXAsyncReadPacket.h */,
+				849EDEC023A1E611006FADAA /* INXAsyncReadPacket.m */,
+				849EDEC723A1E611006FADAA /* INXAsyncSocket.h */,
+				849EDEC423A1E611006FADAA /* INXAsyncSocket.m */,
+				849EDEDC23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.h */,
+				849EDEDD23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.m */,
+				849EDEC523A1E611006FADAA /* INXAsyncSocketDelegate.h */,
+				849EDEBA23A1E611006FADAA /* INXAsyncSocketPreBuffer.h */,
+				849EDEBB23A1E611006FADAA /* INXAsyncSocketPreBuffer.m */,
+				849EDEC823A1E611006FADAA /* INXAsyncSpecialPacket.h */,
+				849EDEBE23A1E611006FADAA /* INXAsyncSpecialPacket.m */,
+				849EDEBF23A1E611006FADAA /* INXAsyncWritePacket.h */,
+				849EDECA23A1E611006FADAA /* INXAsyncWritePacket.m */,
+				849EDEBC23A1E611006FADAA /* INXSCommandInfo.h */,
+				849EDEC123A1E611006FADAA /* INXSCommandInfo.m */,
+				849EDEB223A1E5F3006FADAA /* InnotechIMProtocol.h */,
+				849EDEB323A1E5F3006FADAA /* Info.plist */,
+			);
+			path = InnotechIMProtocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		849EDEAA23A1E5F3006FADAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849EDED923A1E611006FADAA /* INXAsyncSpecialPacket.h in Headers */,
+				849EDECD23A1E611006FADAA /* INXSCommandInfo.h in Headers */,
+				849EDED723A1E611006FADAA /* InnotechIMProtocolManager.h in Headers */,
+				849EDEDA23A1E611006FADAA /* InnotechIMProtocolUtility.h in Headers */,
+				849EDECB23A1E611006FADAA /* INXAsyncSocketPreBuffer.h in Headers */,
+				849EDED323A1E611006FADAA /* INXAsyncReadPacket.h in Headers */,
+				849EDED823A1E611006FADAA /* INXAsyncSocket.h in Headers */,
+				849EDED623A1E611006FADAA /* INXAsyncSocketDelegate.h in Headers */,
+				849EDEB423A1E5F3006FADAA /* InnotechIMProtocol.h in Headers */,
+				849EDED023A1E611006FADAA /* INXAsyncWritePacket.h in Headers */,
+				849EDEDE23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		849EDEAE23A1E5F3006FADAA /* InnotechIMProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849EDEB723A1E5F3006FADAA /* Build configuration list for PBXNativeTarget "InnotechIMProtocol" */;
+			buildPhases = (
+				849EDEAA23A1E5F3006FADAA /* Headers */,
+				849EDEAB23A1E5F3006FADAA /* Sources */,
+				849EDEAC23A1E5F3006FADAA /* Frameworks */,
+				849EDEAD23A1E5F3006FADAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnotechIMProtocol;
+			productName = InnotechIMProtocol;
+			productReference = 849EDEAF23A1E5F3006FADAA /* InnotechIMProtocol.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849EDEA623A1E5F3006FADAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = jocer;
+				TargetAttributes = {
+					849EDEAE23A1E5F3006FADAA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					849EDEE023A1E86C006FADAA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 849EDEA923A1E5F3006FADAA /* Build configuration list for PBXProject "InnotechIMProtocol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 849EDEA523A1E5F3006FADAA;
+			productRefGroup = 849EDEB023A1E5F3006FADAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849EDEAE23A1E5F3006FADAA /* InnotechIMProtocol */,
+				849EDEE023A1E86C006FADAA /* Aggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849EDEAD23A1E5F3006FADAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D28B6323A1EFD5006A036B /* InnotechIMProtocol.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84D28B6123A1E89A006A036B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#xcodebuild -project hvui.xcodeproj -target FrameworkMaker_Release;rm -rf build;\nproductName=\"${PROJECT_NAME}\"\ntarget=\"${productName}\"\ntmpDir=\"${PROJECT_TEMP_DIR}/build\"\nrm -rf \"${tmpDir}\"\nsdks=(\"iphonesimulator\" \"iphoneos\")\nconfigurations=(\"Debug\" \"Release\")\nim_protocol_libs=\"${SRCROOT}/../im_protocol_libs\"\n\n# xcodebuild -target \"${PROJECT_NAME}\" -configuration \"Release\" -sdk \"iphoneos\" build SYMROOT=\"${tmpDir}\" ONLY_ACTIVE_ARCH=\"NO\" VALID_ARCHS=\"arm64 armv7 armv7s i386 x86_64\"\n\n# build\nfunction buildLibs(){\nfor configuration in ${configurations[@]}\ndo\nfor sdk in ${sdks[@]}\ndo\nxcodebuild -target \"${target}\" -configuration \"${configuration}\" -sdk \"${sdk}\" build SYMROOT=\"${tmpDir}\" ONLY_ACTIVE_ARCH=\"NO\" VALID_ARCHS=\"arm64 armv7 armv7s i386 x86_64\"\ndone\ndone\n}\n# -c\nfunction lipoLibs(){\nfor configuration in ${configurations[@]}\ndo\nframeworkDir=\"${im_protocol_libs}/Frameworks/${configuration}-Universal\"\niphoneosDir=\"${im_protocol_libs}/${configuration}-iphoneos/${productName}.framework\"\niphonesimulatorDir=\"${im_protocol_libs}/${configuration}-iphonesimulator/${productName}.framework\"\n-d \"${frameworkDir}\" || mkdir -p \"${frameworkDir}\"\ncp -r \"${iphoneosDir}\" \"${frameworkDir}/\"\nlipo  -c \"${iphoneosDir}/${productName}\" \"${iphonesimulatorDir}/${productName}\" -o \"${frameworkDir}/${productName}.framework/${productName}\"\nrm -rf \"${frameworkDir}/${productName}.framework/_CodeSignature\"\ndone\n}\n\n# rm\nfunction rmLibs(){\nfor configuration in ${configurations[@]}\ndo\nfor sdk in ${sdks[@]}\ndo\nrm -rf \"${im_protocol_libs}/${configuration}-${sdk}\"\ndone\ndone\n}\n\nbuildLibs\nlipoLibs\nrmLibs\nopen \"${im_protocol_libs}/Frameworks\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849EDEAB23A1E5F3006FADAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849EDEDB23A1E611006FADAA /* INXAsyncWritePacket.m in Sources */,
+				849EDED223A1E611006FADAA /* INXSCommandInfo.m in Sources */,
+				849EDED123A1E611006FADAA /* INXAsyncReadPacket.m in Sources */,
+				849EDED523A1E611006FADAA /* INXAsyncSocket.m in Sources */,
+				849EDECF23A1E611006FADAA /* INXAsyncSpecialPacket.m in Sources */,
+				849EDECC23A1E611006FADAA /* INXAsyncSocketPreBuffer.m in Sources */,
+				849EDED423A1E611006FADAA /* InnotechIMProtocolUtility.m in Sources */,
+				849EDEDF23A1E699006FADAA /* NSData+InnotechIMProtocolGZIP.m in Sources */,
+				849EDECE23A1E611006FADAA /* InnotechIMProtocolManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		849EDEB523A1E5F3006FADAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		849EDEB623A1E5F3006FADAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		849EDEB823A1E5F3006FADAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../im_protocol_libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = InnotechIMProtocol/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocketTest.InnotechIMProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849EDEB923A1E5F3006FADAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../im_protocol_libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = InnotechIMProtocol/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocketTest.InnotechIMProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		849EDEE223A1E86C006FADAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849EDEE323A1E86C006FADAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849EDEA923A1E5F3006FADAA /* Build configuration list for PBXProject "InnotechIMProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849EDEB523A1E5F3006FADAA /* Debug */,
+				849EDEB623A1E5F3006FADAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849EDEB723A1E5F3006FADAA /* Build configuration list for PBXNativeTarget "InnotechIMProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849EDEB823A1E5F3006FADAA /* Debug */,
+				849EDEB923A1E5F3006FADAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849EDEE123A1E86C006FADAA /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849EDEE223A1E86C006FADAA /* Debug */,
+				849EDEE323A1E86C006FADAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849EDEA623A1E5F3006FADAA /* Project object */;
+}
